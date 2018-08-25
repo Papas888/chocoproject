@@ -4,8 +4,10 @@ los siguientes archivos que encontraran en nuestros repositorios son los HTML5 y
 .Por favor cada aporte al proyecto se debe enviar con copia de aprobacion de todos lo compañeros del grupo para que entre todos rebicemos los codigos proporcionados.
 
 .Al momento de subir una nueva rama donde un nombre claro de a que va dirigido y una breve descripccion en los comentarios.
-Vamos a sacar este proyecto adelante
+.Todas las imagenes que quieran adicionar siempre se pegaran en la carpeta img.
 .
 
 
 Si se me ocurren mas recomendaciones les dejare en las ventas que saltaran automaticamente cuando vayan a subir un aporte.
+
+Vamos a sacar este proyecto adelante

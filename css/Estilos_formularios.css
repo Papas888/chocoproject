@@ -6,8 +6,12 @@ body{
 
 }
 
+head {
+ 	text-align: left;
+ }
+
 /* Estilos globales */
-.contenedor{
+.contenedore{
 	width: 80%;
 	margin: auto;
 	overflow: hidden;
@@ -71,18 +75,18 @@ header a{
 }
 
 /* Cabecera */
- #cabecera{
+ #cabeceraa{
  	min-height: 100px;
  	color:#11A5C9; 
  	text-align: center;
  	
  }
- #cabecera h1{
+ #cabeceraa h1{
  	margin-top: 100px;
  	font-style: 55px;
  	margin-bottom: 10px;
  }
- #cabecera p{
+ #cabeceraa p{
  	font-size: 20px;
  }
 
@@ -116,6 +120,113 @@ footer{
 	text-align: center;
 
 }
+
+
+
+/*titulo*/
+
+
+div.contenedor{
+	width: 110px;
+    height: 210px;
+	margin-top: 5px;
+	margin-bottom: -50px;
+	margin-left: 150px;
+	margin-right: 50px;
+	-webkit-transition: height .4s;
+	float: left;
+
+
+}
+
+div#uno{
+	background-color: rgb(90,189,255);
+	margin-left: 80px;
+	margin-right:10px;
+	width: 200px;
+}
+
+div#dos{
+	background-color: rgb(14,194,248);
+	margin-left: 10px;
+	margin-right:10px;
+	width: 200px;
+}
+
+div#tres{
+	background-color: rgb(22,145,190);
+	margin-left: 10px;
+	margin-right:10px;
+	width: 200px;
+}
+
+div#cuatro{
+	background-color: rgb(22,107,162);
+	margin-left: 10px;
+	margin-right:10px;
+	width: 200px;
+}
+
+div#cinco{
+	background-color: rgb(39,84,178);
+	margin-left: 10px;
+	margin-right:10px;
+	width: 200px;
+}
+
+div#seis{
+	background-color: rgb(18,50,118);
+	margin-left: 10px;
+	margin-right:10px;
+	width: 200px;
+}
+
+div#siete{
+	background-color: rgb(27,54,71);
+	margin-left: 10px;
+	margin-right:10px;
+	width: 200px;
+}
+div#ocho{
+	background-color: rgb(21,40,54);
+	margin-left: 10px;
+	margin-right:10px;
+	width: 200px;
+}
+
+img.icon{
+	display: block;
+	margin:30px auto;
+	background-color: rgba(255,255,255,.15);
+	width:50px;
+	padding:20px;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+
+p.texto{
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	padding-top:10px;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
+}
+
+div.contenedor:hover{
+	height:200px;
+}
+
+div.contenedor:hover p.texto{
+	padding-top: 10px;
+	opacity: 1;
+}
+
+div.contenedor:hover img.icon{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
 
 
 

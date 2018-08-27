@@ -17,8 +17,6 @@ head {
 	overflow: hidden;
 }
 
-¿''
-
 .boton{
 	height: 38px;
 	background-color: #ed8491d;
@@ -99,16 +97,26 @@ header a{
    padding: 5px;
    width: 100%;
 
+
  }
  form h4{
  	margin: 5px;
- 	color:#1293d4;  
+ 	color:#1293d4; 
+ 	text-align: center; 
  }
  form input{
  	border-radius:2px;
  	width: 25%;
 
+ 	margin-right: 500px;
+
  }
+
+ form label{
+ 	margin-right: 500px;
+ }
+
+
 
 
 /* footer pie de pagina */
@@ -245,12 +253,3 @@ div.contenedor:hover img.icon{
 	margin-left: 950px;
 	margin-top: 15px;
 }
-
-
-
-
-
-
-
-
-

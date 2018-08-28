@@ -64,8 +64,8 @@
 			<p class="texto">Viviendas</p>
 		</div>
 
-		<div class="contenedor" id="nueve">
-			<img class="icon" src="img/junta.png">
+		<div class="contenedor" id="nueve" >
+			<a href="formulario_juntas.html"><img class="icon" src="img/junta.png"/></a>
 			<p class="texto">Juntas</p>
 		</div>
 
@@ -74,26 +74,32 @@
 			<p class="texto">Enfermedades</p>
 		</div><br>
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<form>
-<h4>Ingrese los datos de la junta</h4>
-		 		<label> Id de la junta:</label>
-		 		<input id="" type="int" name="id_junta"><br>
-		 		<br>
+	<form action="conectjuntas.php"	method="post">
+		<table>
+			<h4>Ingrese los datos de la junta</h4>
+		 		<tr>
+		 			<td><label> Id de la junta:</label></td>
+		 			<td><input id="" type="int" name="id_junta"></td>
+		 		</tr>
 
-		 		<label> Nombre de la junta:</label>
-		 		<input id="" type="int" name="nom_junta"><br>
-		 		<br>
+		 		<tr>
+		 			<td><label> Nombre de la junta:</label></td>
+		 			<td><input id="" type="int" name="nom_junta"><br></td>
+		 		</tr>
 
-		 		<label> Id de la zona:</label>
-		 		<input id="" type="int" name="id_barario"><br>
-		 		<br>
+		 		<tr>
+		 			<td><label> Id de la zona:</label></td>
+		 			<td><input id="" type="int" name="id_barario"></td>
+		 		</tr>
 
-		 		<label> Id del proyecto:</label>
-		 		<input id="" type="int" name="id_proyecto"><br>
-		 		<br>
-
-	  	</form>
-	<button type="submi" class="boton1">Enviar</button>
+		 		<tr>
+		 			<td><label> Id del proyecto:</label></td>
+		 			<td><input id="" type="int" name="id_proyecto"></td>
+		 		</tr>
+		</table>
+	<button type="submit" name="enviar" value="enviar" class="boton1">Enviar</button>
+	</form>
+	
 	 	<footer>
 	 	<p>Condoto, choco v0.5.0 &copy; 2018</p>
 	 </footer>

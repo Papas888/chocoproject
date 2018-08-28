@@ -64,8 +64,8 @@
 			<p class="texto">Viviendas</p>
 		</div>
 
-		<div class="contenedor" id="nueve">
-			<img class="icon" src="img/junta.png">
+		<div class="contenedor" id="nueve" >
+			<a href="formulario_juntas.html"><img class="icon" src="img/junta.png"/></a>
 			<p class="texto">Juntas</p>
 		</div>
 
@@ -77,146 +77,184 @@
 
 	<section id="cabeceraa">
 		<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+		 
 		 <form>
+		 	<table id="tabla1">
 		 <h4>Ingrese los datos de la familia</h4>
-				<label> Identificacion de la familia:</label>
-				<input type="int" name="id_famila"><br>
-				<br>
+				<tr>
+					<td><label> Identificacion de la familia:</label></td>
+				<td><input type="int" name="id_famila"></td>
+			</tr>
+			
 
-				<label> Apellido familia:</label>
-			    <input type="text" name="nucleo familiar "><br>
-			    <br>
+				<tr>
+					<td><label> Apellido familia:</label></td>
+			    <td><input type="text" name="nucleo familiar "></td>
+			</tr>
 
-			    <label> Numero de integrantes:</label>
-			    <select name="num_integrantes" >
-				<option value="0">Seleccione</option>
-				<option value="1">1</option>
-				<option value="2">2</option>
-				<option value="3">3</option>
-				<option value="4">4</option>
-				<option value="5">5</option>
-				<option value="6">6</option>
-				<option value="7">7</option>
-				<option value="8">8</option>
-				<option value="9">9</option>
-				<option value="10">10</option>
-				<option value="11">Mas...</option>
-			</select><br>
-			    <br>
 
-			    <label> Numero de adultos mayores de 70:</label>    
-			    <input type="int" name="adultos_mayores"><br>
-			    <br>
+			    <tr>
+			    	<td><label> Numero de adultos mayores de 70:</label></td>    
+			   <td><input type="int" name="adultos_mayores"></td>
+			   </tr>
 			    
-			    <label> Numero de adultos mayores de 18:</label>
-			    <input type="int" name="mayores_18"><br>
-			    <br>
 			    
-			    <label> Numero de jovenes entre 12 Y 17:</label>
-			    <input type="int" name="jovenes"><br>
-			    <br>
+			   <tr>
+			   	<td><label> Numero de adultos mayores de 18:</label></td>
+			    <td><input type="int" name="mayores_18"></td>
+				</tr>
 			    
-			    <label> Numero de niños entre 0 Y 11:</label>
-			    <input type="int" name="niños"><br>
-			    <br>
-		</form>		
+			   <tr> 
+			   	<td><label> Numero de jovenes entre 12 Y 17:</label></td>
+			    <td><input type="int" name="jovenes"></td>
+			</tr>
+			    
+			    <tr>
+			    	<td><label> Numero de niños entre 0 Y 11:</label></td>
+			    <td><input type="int" name="niños"></td>
+			</tr>
+			    <tr>
+			    	<td><label> Numero de integrantes:</label></td>
+				    <td><select name="num_integrantes" >
+					<option value="0">Seleccione</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">Mas...</option>
+					</select></td>
+				</tr>
+		</table>
+		<button type="submit" class="boton1">Enviar</button>
+		</form>	
+			
 
 		<form> 
+			<table id="tabla2">
+
 		 <h4>Ingrese los datos de la vivienda</h4>
-		 <br>
-			<label>Identificacion de Vivienda:</label>
-			<input type="text" name="id_vivienda"><br>
-			<br>
+		 
+		 	<tr>
+			<td><label>Identificacion de Vivienda:</label></td>
+			<td><input type="text" name="id_vivienda"></td>
+			</tr>
+
+			<tr>
+				<td><label>Dirección:</label></td>
+				<td><input type="text" name="direccion"></td>
+			</tr>
+
+			<tr>
+				<td><label>Tipo de vivienda:</label></td>
+				<td><input type="text" name="tipo_viv"></td>
+			</tr>
 			
-			<label>Dirección:</label>
-			<input type="text" name="direccion"><br>
-			<br>
 
-			<label>Tipo de vivienda:</label>
-			<input type="text" name="tipo_viv"><br>
-			<br>
+			<tr>
+				<td><label>Id zona:</label></td>
+				<td><input type="text" name="id_barario"></td>
+			</tr>
 
-			<label>Material de la pared:</label>
-			<select>
+			<tr>
+				<td><label>Id Familia:</label></td>
+				<td><input type="text" name="id_familia"></td>
+			</tr>
+			
+			<tr>
+				<td><label>Material de la pared:</label></td>
+			<td><select>
 	  				<option value="mader">Madera</option>
 	  				<option value="guadua">Guadua</option>
 	  				<option value="ladrillo">Ladrillos</option>
 	  				<option value="Concreto">Concreto</option>
-				</select><br>
-				<br>
-	
+				</select></td>
+			</tr>
 
-			<label>Material del suelo:</label>
-			<select>
+			<tr>
+				<td><label>Material del suelo:</label></td>
+			<td><select>
 	  				<option value="baldosa">Baldosa</option>
 	  				<option value="piedra">Piedra</option>
 	  				<option value="concreto">Concreto</option>
 	  				<option value="granito">Granito</option>
-				</select><br>
-				<br>
+				</select></td>
 
-			<label>Número de pisos:</label>
-			<select>
+			<tr>
+				<td><label>Número de pisos:</label></td>
+			<td><select>
 	  				<option value="uno">1</option>
 	  				<option value="dos">2</option>
 	  				<option value="tres">3</option>
 	  				<option value="cuatro">4</option>
-				</select><br>
-				<br>
+				</select></td>
 			
-			<label>Estrato social:	</label>
-				<select>
+			<tr>
+				<td><label>Estrato social:	</label></td>
+				<td><select>
 	  				<option value="uno">1</option>
 	  				<option value="dos">2</option>
 	  				<option value="tres">3</option>
 	  				<option value="cuatro">4</option>
-				</select><br>
-				<br>
-			
-			<label>Id zona:</label>
-			<input type="text" name="id_barario"><br>
-			<br>
+				</select></td>
+			</tr>
+		</table>
+		<button type="submit" class="boton1">Enviar</button>
+		</form>
+		
 
-			<label>Id Familia:</label>
-			<input type="text" name="id_familia"><br>
-			<br>
-	    </form>
 		<form>
+			<table id="tabla3">
 			<h4>Ingrese los datos del barrio</h4>
-				<br>
-				<label>Identificacion de barrio:</label>
-			    <input type="text" name="id_barrio"><br>
-			    <br>
-			    <label>Barrio</label>
-			    <select name="num_barrio">
-				<option value="seleccione 1">Seleccione</option>
-				<option value="Bebedocito 2">Bebedocito</option>
-				<option value="bogota 3">bogota</option>
-				<option value="Buenos Aires 4">Buenos Aires</option>
-				<option value="Cabecera 5">Cabecera</option>
-				<option value="Cascajero 6">Cascajero</option>
-				<option value="Carretera 7">Carretera</option>
-				<option value="Comercio 8">Comercio</option>
-				<option value="Clareth 9">Clareth</option>
-				<option value="Las Americas 10">Las Américas</option>
-				<option value="las Ameriquitas 11">las Ameriquitas</option>
-				<option value="la hilaria 12">la hilaria</option>
-				<option value="Los Heroes 13">Los Héroes</option>
-				<option value="La Union 14">La Unión</option>
-				<option value="Santa Rita 15">Santa Rita</option>
-			    <option value="San Pedro 16">San Pedro</option>
-				<option value="El Salto 17">El Salto</option>
-				<option value="El Silencio 18">El Silencio</option>
-				<option value="platinero 19">platinero</option>
-			</select>
-			<br>
-			<label>Identificacion de Vivienda:</label>
-			<input type="text" name="id_vivienda"><br>
-			<br>
+				<tr>
+					<td><label>Identificacion de barrio:</label></td>
+			    	<td><input type="text" name="id_barrio"><br></td>
+			    </tr>
+
+			<tr>
+				<td><label>Identificacion de Vivienda:</label></td>
+				<td><input type="text" name="id_vivienda"><br></td>
+			</tr>
+
+			    <tr>
+			    	<td><label>Barrio</label></td>
+					 <td>
+					 	<select name="num_barrio">
+						<option value="seleccione 1">Seleccione</option>
+						<option value="Bebedocito 2">Bebedocito</option>
+						<option value="bogota 3">bogota</option>
+						<option value="Buenos Aires 4">Buenos Aires</option>
+						<option value="Cabecera 5">Cabecera</option>
+						<option value="Cascajero 6">Cascajero</option>
+						<option value="Carretera 7">Carretera</option>
+						<option value="Comercio 8">Comercio</option>
+						<option value="Clareth 9">Clareth</option>
+						<option value="Las Americas 10">Las Américas</option>
+						<option value="las Ameriquitas 11">las Ameriquitas</option>
+						<option value="la hilaria 12">la hilaria</option>
+						<option value="Los Heroes 13">Los Héroes</option>
+						<option value="La Union 14">La Unión</option>
+						<option value="Santa Rita 15">Santa Rita</option>
+					    <option value="San Pedro 16">San Pedro</option>
+						<option value="El Salto 17">El Salto</option>
+						<option value="El Silencio 18">El Silencio</option>
+						<option value="platinero 19">platinero</option>
+						</select>
+					</td>
+				</tr>
+			
+		</table>
+		<button type="submit" class="boton1">Enviar</button>
 		 </form>
 		
 	</section >
-	<button type="submi" class="boton1">Enviar</button>
+	
 	 <footer>
 	 	<p>Condoto, choco v0.5.0 &copy; 2018</p>
 	 </footer>

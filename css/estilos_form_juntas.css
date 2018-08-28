@@ -89,32 +89,36 @@ header a{
  }
 
 
- form{
+  form{
    background: #E3F7FD;
    border: 1px solid #49C7E3;
    color: #49C7E3;
    font-size: 15px;
    padding: 5px;
-   width: 100%;
-
+   width: 1330px;
+   margin-left: 40px;
+   margin-right: 40px;
+   margin-top:9px;
 
  }
  form h4{
- 	margin: 5px;
- 	color:#1293d4; 
+ 	margin-bottom: 15px;
+ 	margin-top: 10px;
+ 	color: rgb(21,40,54);
  	text-align: center; 
  }
  form input{
  	border-radius:2px;
  	width: 25%;
-
  	margin-right: 500px;
 
  }
 
  form label{
- 	margin-right: 500px;
- }
+	color: rgb(21,40,54);
+ 	float: right;
+	margin-left:500px;
+}
 
 
 
@@ -149,65 +153,75 @@ div.contenedor{
 
 div#uno{
 	background-color: rgb(90,189,255);
-	margin-left: 60px;
-	margin-right:10px;
-	width: 180px;
+	margin-left: 40px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 140px;
 }
 
 div#dos{
 	background-color: rgb(14,194,248);
-	margin-left: 10px;
-	margin-right:10px;
-	width: 180px;
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 140px;
 }
 
 div#tres{
 	background-color: rgb(22,145,190);
-	margin-left: 10px;
-	margin-right:10px;
-	width: 180px;
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 140px;
 }
 
 div#cuatro{
 	background-color: rgb(22,107,162);
-	margin-left: 10px;
-	margin-right:10px;
-	width: 180px;
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 140px;
 }
 
 div#cinco{
 	background-color: rgb(39,84,178);
-	margin-left: 10px;
-	margin-right:10px;
-	width: 180px;
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 140px;
 }
 
 div#seis{
 	background-color: rgb(18,50,118);
-	margin-left: 10px;
-	margin-right:10px;
-	width: 180px;
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 140px;
 }
 
 div#siete{
 	background-color: rgb(10,29,82);
-	margin-left: 10px;
-	margin-right:10px;
-	width: 180px;
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 140px;
 }
 div#ocho{
 	background-color: rgb(21,40,54);
-	margin-left: 10px;
-	margin-right:10px;
-	width: 180px;
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 140px;
 }
 
 div#nueve{
 	background-color: rgb(21,40,54);
 	margin-left: 10px;
 	margin-right:10px;
-	width: 180px;
+	margin-top: 25px;
+	width: 131px;
 }
+
 
 img.icon{
 	display: block;
@@ -245,11 +259,11 @@ div.contenedor:hover img.icon{
 
 .boton1{
 	height: 38px;
-	background-color: #1FA2C8;
+	background-color: rgb(21,40,54);
 	border: 0;
 	padding-left: 20px;
 	padding-right: 20px;
 	color: #fff;
-	margin-left: 950px;
+	margin-left: 625px;
 	margin-top: 15px;
 }

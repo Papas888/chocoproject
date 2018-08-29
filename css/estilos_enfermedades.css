@@ -88,17 +88,7 @@ header a{
  	font-size: 20px;
  }
 
-tr input{
- margin-right: 650px;
-}
-td select{
- margin-right: 800px;
-}
-td label{
-	
-	margin-left:200px;
-	color: rgb(21,40,54);
-}
+
   form{
    background: #E3F7FD;
    border: 1px solid #49C7E3;
@@ -116,11 +106,13 @@ td label{
  	margin-top: 10px;
  	color: rgb(21,40,54);
  	text-align: center; 
+ 	
  }
  form input{
  	border-radius:2px;
- 	width: 25%;
- 	margin-right: 500px;
+ 	margin-right: 50px;
+ 	float: left;
+ 	
 
  }
 
@@ -128,6 +120,15 @@ td label{
 	color: rgb(21,40,54);
  	float: right;
 	margin-left:500px;
+
+
+}
+
+form select{
+	border-radius:2px;
+ 	margin-right: 50px;
+ 	float: left;
+
 }
 
 
@@ -274,6 +275,6 @@ div.contenedor:hover img.icon{
 	padding-left: 20px;
 	padding-right: 20px;
 	color: #fff;
-	margin-left: 625px;
+	margin-left: 70px;
 	margin-top: 15px;
 }

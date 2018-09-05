@@ -12,59 +12,39 @@ head {
 
 /* Estilos globales */
 .contenedore{
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	overflow: hidden;
 }
+/* Cabecera con Imagen*/
+.logo{
+ 	width: 300px;
+ 	padding: 20px 0 20px 0;
+ 	margin-top: -50px;
+ 	margin-bottom: -50px;
+ 	margin-left: 5%;
+
+ 	
+
+ 	
+ }
 
 /* Encabezado */
 header{
 	background-color: #24282b;
 	color:  #fff;
-	padding-top: 30px;
-	min-height: 70px;
+	padding: 0;
+	min-height: 20px;
 	border-bottom: 5px solid #1293d4;
-}
-header a{
-	color: #fff;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 16px; 
-}
-header li{
-	float: left;
-	display: inline;
-	padding: 0 20px 0 20px
+	height: 10%
 }
 
-header #marca{
-	float: left;
 
-}
-header #marca h1{
-	margin: 0;
 
-}
-header nav{
-	float: right;
-	margin-top: 10px;
-}
-header nav.login{
-	margin-top: -75px;
-}
-header .resaltado, header .actual a{
-	color: #1293d4
-	font-weight: bold;
-}
-header a{
-	color: #ccc;
-	font-weight: bold;
-
-}
 .slider{
 	margin-top: -60px;
-	height: : 400px;
-	width: 1341px;
+	height: : 40%;
+	width: 67.5%;
 	margin-left:300px;
 	overflow: hidden;
 
@@ -73,7 +53,7 @@ header a{
  .slider ul{
  	display: flex;
  	padding: 0;
- 	height: : 570000px;
+ 	height: : 5820%;
 
 
  	animation: cambio 20s infinite alternate;
@@ -81,12 +61,12 @@ header a{
  }
  .slider li{
  	height: 100%;
- 	width: 1800px;
+ 	width: 100%;
  	list-style: none;
  }
  .slider img{
  	height: 400px;
- 	width: 1341px;
+ 	width: 1285px;
  }
 
 .slider1{
@@ -136,10 +116,10 @@ div.contenedor{
 
 div#uno{
 	background-color: rgb(90,189,255);
-	margin-left: 300px;
+	margin-left: 14.5%;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 140px;
+	width: 7%;
 }
 
 div#dos{
@@ -147,7 +127,7 @@ div#dos{
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 140px;
+	width: 7%;
 }
 
 div#tres{
@@ -155,7 +135,7 @@ div#tres{
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 140px;
+	width: 7%;
 }
 
 div#cuatro{
@@ -163,7 +143,7 @@ div#cuatro{
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 140px;
+	width: 7%;
 }
 
 div#cinco{
@@ -171,7 +151,7 @@ div#cinco{
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 140px;
+	width: 7%;
 }
 
 div#seis{
@@ -179,7 +159,7 @@ div#seis{
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 140px;
+	width: 7%;
 }
 
 div#siete{
@@ -187,14 +167,14 @@ div#siete{
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 140px;
+	width: 7%;
 }
 div#ocho{
 	background-color: rgb(21,40,54);
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 140px;
+	width: 7%;
 }
 
 div#nueve{
@@ -202,7 +182,7 @@ div#nueve{
 	margin-left: 10px;
 	margin-right:10px;
 	margin-top: 25px;
-	width: 131px;
+	width: 7%;
 }
 
 
@@ -240,7 +220,5 @@ div.contenedor:hover img.icon{
 }
 
 
-section{
-	margin-bottom: 0;
-}
+
 

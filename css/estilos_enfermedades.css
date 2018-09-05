@@ -12,10 +12,18 @@ head {
 
 /* Estilos globales */
 .contenedore{
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	overflow: hidden;
 }
+/* Cabecera con Imagen*/
+.logo{
+ 	width: 300px;
+ 	padding: 20px 0 20px 0;
+ 	margin-top: -70px;
+ 	margin-bottom: -50px;
+ 	margin-left: 5%;
+ }
 
 .boton{
 	height: 38px;
@@ -95,9 +103,8 @@ header a{
    color: #49C7E3;
    font-size: 15px;
    padding: 5px;
-   width: 1330px;
-   margin-left: 40px;
-   margin-right: 40px;
+   width:95%;
+   margin-left:2%;
    margin-top:9px;
 
  }
@@ -110,7 +117,7 @@ header a{
  }
  form input{
  	border-radius:2px;
- 	margin-right: 50px;
+ 	margin-right:40%;
  	float: left;
  	
 
@@ -119,25 +126,27 @@ header a{
  form label{
 	color: rgb(21,40,54);
  	float: right;
-	margin-left:500px;
+	margin-left:40%;
 
 
 }
 
 form select{
 	border-radius:2px;
- 	margin-right: 50px;
+ 	margin-right: 40%;
  	float: left;
 
 }
 
-
+table{
+	width: 130%;
+}
 
 
 /* footer pie de pagina */
 footer{
-	padding: 20px;
-	margin-top: 20px;
+	padding: 10px;
+	margin-top: 30px;
 	color: #fff;
 	background-color: #1293d4;
 	text-align: center;
@@ -164,10 +173,11 @@ div.contenedor{
 
 div#uno{
 	background-color: rgb(90,189,255);
-	margin-left: 40px;
+	margin-left: 6%;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 140px;
+	width: 9%;
+
 }
 
 div#dos{
@@ -175,7 +185,8 @@ div#dos{
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 140px;
+	width: 9%;
+
 }
 
 div#tres{
@@ -183,7 +194,8 @@ div#tres{
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 140px;
+	width: 9%;
+
 }
 
 div#cuatro{
@@ -191,7 +203,8 @@ div#cuatro{
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 140px;
+	width: 9%;
+
 }
 
 div#cinco{
@@ -199,7 +212,8 @@ div#cinco{
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 140px;
+	width: 9%;
+
 }
 
 div#seis{
@@ -207,7 +221,8 @@ div#seis{
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 140px;
+	width: 9%;
+
 }
 
 div#siete{
@@ -215,14 +230,16 @@ div#siete{
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 140px;
+	width: 9%;
+
 }
 div#ocho{
 	background-color: rgb(21,40,54);
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 140px;
+	width: 9%;
+
 }
 
 div#nueve{
@@ -230,7 +247,8 @@ div#nueve{
 	margin-left: 10px;
 	margin-right:10px;
 	margin-top: 25px;
-	width: 131px;
+	width: 9%;
+
 }
 
 

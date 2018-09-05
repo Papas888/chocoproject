@@ -179,79 +179,78 @@ div#uno{
 	width: 9%;
 
 }
-
+/* Proyectos */
 div#dos{
-	background-color: rgb(14,194,248);
+	background-color: rgb(25,44,59);
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
 	width: 9%;
 
 }
-
+/* Barrios */
 div#tres{
-	background-color: rgb(22,145,190);
+	background-color: rgb(31,121,197);
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
 	width: 9%;
 
 }
-
+/* riesgos */
 div#cuatro{
-	background-color: rgb(22,107,162);
+	background-color: rgb(31,68,99);
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
 	width: 9%;
 
 }
-
+/* Donaciones */
 div#cinco{
-	background-color: rgb(39,84,178);
+	background-color: rgb(22,33,42);
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
 	width: 9%;
 
 }
-
+/* Familias */
 div#seis{
-	background-color: rgb(18,50,118);
+	background-color: rgb(38,105,160);
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
 	width: 9%;
 
 }
-
+/* Viviendas */
 div#siete{
-	background-color: rgb(10,29,82);
+	background-color: rgb(42,119,147);
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
 	width: 9%;
 
 }
+/* Zonas */
 div#ocho{
-	background-color: rgb(21,40,54);
+	background-color: rgb(90,163,223);
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
 	width: 9%;
 
 }
-
+/* Juntas */
 div#nueve{
-	background-color: rgb(21,40,54);
+	background-color: rgb(85,126,160);
 	margin-left: 10px;
 	margin-right:10px;
 	margin-top: 25px;
 	width: 9%;
 
 }
-
-
 img.icon{
 	display: block;
 	margin:30px auto;

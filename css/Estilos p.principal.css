@@ -45,7 +45,7 @@ header{
 	margin-top: -60px;
 	height: : 40%;
 	width: 67.5%;
-	margin-left:300px;
+	margin-left:230px;
 	overflow: hidden;
 
 
@@ -53,7 +53,7 @@ header{
  .slider ul{
  	display: flex;
  	padding: 0;
- 	height: : 5820%;
+ 	height: : 6420%;
 
 
  	animation: cambio 20s infinite alternate;
@@ -66,7 +66,7 @@ header{
  }
  .slider img{
  	height: 400px;
- 	width: 1285px;
+ 	width: 961px;
  }
 
 .slider1{
@@ -113,83 +113,93 @@ div.contenedor{
 
 
 }
-
+/* Consultas */
 div#uno{
-	background-color: rgb(90,189,255);
-	margin-left: 14.5%;
+	background-color: rgb(32,49,57);
+	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 7%;
+	width: 8%;
 }
+	
 
 /* Proyectos */
 div#dos{
-	background-color: rgb(25,44,59);
-	margin-left: 5px;
-	margin-right:5px;
-	margin-top: 25px;
-	width: 7%;
-}
-/* Barrios */
-div#tres{
-	background-color: rgb(31,121,197);
-	margin-left: 5px;
-	margin-right:5px;
-	margin-top: 25px;
-	width: 7%;
-}
-
-/* riesgos */
-div#cuatro{
 	background-color: rgb(31,68,99);
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 7%;
+	width: 8%;
 }
-
-/* Donaciones */
-div#cinco{
-	background-color: rgb(22,33,42);
-	margin-left: 5px;
-	margin-right:5px;
-	margin-top: 25px;
-	width: 7%;
-}
-
-/* Familias */
-div#seis{
-	background-color: rgb(38,105,160);
-	margin-left: 5px;
-	margin-right:5px;
-	margin-top: 25px;
-	width: 7%;
-}
-
-/* Viviendas */
-div#siete{
-	background-color: rgb(42,119,147);
-	margin-left: 5px;
-	margin-right:5px;
-	margin-top: 25px;
-	width: 7%;
-}
-/* Zonas */
-div#ocho{
+/* Barrios */
+div#tres{
 	background-color: rgb(90,163,223);
 	margin-left: 5px;
 	margin-right:5px;
 	margin-top: 25px;
-	width: 7%;
+	width: 8%;
+}
+
+/* riesgos */
+div#cuatro{
+	background-color: rgb(85,126,160);
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 8%;
+}
+
+/* Donaciones */
+div#cinco{
+	background-color: rgb(25,44,59);
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 8%;
+}
+
+/* Familias */
+div#seis{
+	background-color: rgb(42,119,147);
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 8%;
+}
+
+/* Viviendas */
+div#siete{
+	background-color: rgb(31,121,197);
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 8%;
+}
+/* Zonas */
+div#ocho{
+	background-color: rgb(90,189,255);
+	margin-left: 6%;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 8%;
 }
 
 /* Juntas */
 div#nueve{
-	background-color: rgb(85,126,160);
+	background-color: rgb(38,105,160);
 	margin-left: 10px;
 	margin-right:10px;
 	margin-top: 25px;
-	width: 7%;
+	width: 8%;
+}
+
+/* Evidencias */
+div#diez{
+	background-color: rgb(22,33,42);
+	margin-left: 10px;
+	margin-right:10px;
+	margin-top: 25px;
+	width: 8%;
 }
 
 
@@ -203,6 +213,8 @@ img.icon{
 	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
 	-webkit-transition:box-shadow .4s;
 }
+
+
 
 p.texto{
 	font-size: 1.2em;
@@ -226,6 +238,35 @@ div.contenedor:hover img.icon{
 	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
 }
 
+aside{
+	background-color: #24282b;
+	margin-top: 50px;
+	height:340px;
+	width: 500px;
+	margin-left: 50px;
+}
+video{
+	width:400px; 
+	height:300px;
+	margin-left: 50px;
+	margin-bottom: 20px;
 
 
+}
 
+article{
+	background-color: #24282b;
+	margin-top: -341px;
+	height:340px;
+	width: 500px;
+	margin-left: 800px;
+
+}
+
+img .img{
+	width:400px; 
+	height:300px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+
+}

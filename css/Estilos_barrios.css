@@ -304,7 +304,159 @@ h4{
 
 
 
+/* Pagina Responsive*/
 
+@media (max-width: 800px) {
+ 
+   div#uno{
+
+	margin-left: 5%;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 8.5%;
+ 	  }
+ 	  /* Proyectos */
+   div#dos{
+	background-color: rgb(25,44,59);
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 8.5%;
+
+}
+     /* Barrios */
+    div#tres{
+	background-color: rgb(31,121,197);
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 8.5%;
+
+}
+    /* riesgos */
+    div#cuatro{
+	background-color: rgb(31,68,99);
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 8.5%;
+
+}
+    /* Donaciones */
+    div#cinco{
+	background-color: rgb(22,33,42);
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 8.5%;
+
+}
+    /* Familias */
+    div#seis{
+	background-color: rgb(38,105,160);
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 8.5%;
+
+}
+    /* Viviendas */
+    div#siete{
+	background-color: rgb(42,119,147);
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 8.5%;
+
+}
+    /* Zonas */
+    div#ocho{
+	background-color: rgb(90,163,223);
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 25px;
+	width: 8.5%;
+
+}
+    /* Juntas */
+    div#nueve{
+	background-color: rgb(85,126,160);
+	margin-left: 10px;
+	margin-right:10px;
+	margin-top: 25px;
+	width: 8.5%;
+
+}
+
+
+    img.icon{
+	display: block;
+	margin:10px auto;
+	background-color: rgba(255,255,255,.15);
+	width:25px;
+	padding:15px;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+
+    p.texto{
+	font-size: 0.7em;
+	color:white;
+	text-align: center;
+	padding-top:50px;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
+}
+
+    div.contenedor:hover{
+	height:130px;
+}
+
+    div.contenedor:hover p.texto{
+	padding-top: 10px;
+	opacity: 1;
+}
+
+    div.contenedor:hover img.icon{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+    div.contenedor{
+	width: 40px;
+    height: 120px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	margin-left: 150px;
+	margin-right: 50px;
+	-webkit-transition: height .4s;
+	float: left;
+
+
+}
+   form{
+   background: #E3F7FD;
+   border: 1px solid #49C7E3;
+   color: #49C7E3;
+   font-size: 15px;
+   padding: 5px;
+   width:95%;
+   margin-left:2%;
+   margin-top:-80px;
+
+ }
+ footer{
+	padding: 10px;
+	margin-top: 27%;
+	color: #fff;
+	background-color: #1293d4;
+	text-align: center;
+
+}
+  body{
+  	min-width: 550px;
+  }
+
+} 
 
 
 
